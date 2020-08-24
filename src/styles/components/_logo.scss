@@ -1,0 +1,58 @@
+.initials {
+  border-top : 15px solid $dark-blue;
+  border-right : 15px solid $dark-blue;
+  height : 30px;
+  width : 30px;
+  position: absolute;
+  top : 20px;
+  left : -10px;
+  background: $dark-blue;
+  color : white;
+  font-size: 17px
+}
+
+.initials-top {
+  height : 20px;
+  width : 30px;
+  background: $dark-blue;
+  transform: skewX(-45deg);
+  position: absolute;
+  top : 0;
+  left : 0
+}
+
+.initials-shift {
+  transform: translate(5px,-12px);
+  margin : 0;
+}
+
+.initials-logo {
+  padding : 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.initials-right {
+  height : 30px;
+  width : 20px;
+  background: $dark-blue;
+  transform: skewY(-45deg);
+  position: absolute;
+  top : 10px;
+  left : 20px;
+}
+
+
+@media (max-width : 900px){
+  .initials-logo{
+    margin-left : 5vw
+  }
+}
+
+@media (min-width : 991px){
+  .initials-logo{
+    margin-top : 5px;
+    margin-bottom: 10px;
+    margin-left : 15vw
+  }
+}
